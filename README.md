@@ -1,61 +1,56 @@
-# Teste FrontEnd UpNext
+<h1 align="center">
+  Green thumb.
+</h1>
 
-Olá,
- 
-Queremos saber um pouco mais das suas habilidades em HTML, CSS e JS!
+<p align="center">
+  <img src="https://img.shields.io/badge/license-MIT-%23835afd" alt="License">
+  <img src="https://img.shields.io/badge/forks-MIT-%23835afd" alt="Forks">
+  <img src="https://img.shields.io/badge/stars-MIT-%23835afd" alt="Stars">
+</p>
 
-Neste repositório constam alguns arquivos iniciais junto com todas as imagens necessárias.
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/43352880/182424501-5cf70160-ca9f-40a7-9ba9-1474d7067374.png" alt="green thumb.">
+</p>
 
-## Objetivo
+## 💻 Projeto
 
-Seu objetivo é construir uma aplicação sem uso de frameworks (Ex: React, Angular entre outros) de acordo com esse layout:
+[GreenThumb](https://upnext-frontend-test-42f0xrkpm-rayanneramos.vercel.app) É um projeto que foi desenvolvido parta a vaga de desenvolvedor frontend da [UpNext](https://agencia.upnext.com.br/). O projeto desafia a montar uma landing page de um site onde o protótipo está disponível no figma utilizando somente HTML, CSS e JS.
 
-- [Desktop](https://www.figma.com/file/rA9ydy2sGCAjv6lKF1GzIm/UpNext-FrontEnd-Test?node-id=0%3A130)
-- [Mobile](https://www.figma.com/file/rA9ydy2sGCAjv6lKF1GzIm/UpNext-FrontEnd-Test?node-id=0%3A297)
-- [Styleguide](https://www.figma.com/file/rA9ydy2sGCAjv6lKF1GzIm/UpNext-FrontEnd-Test?node-id=0%3A526)
+## 🧪 Technologies
 
-A aplicação deve ser **responsiva**, portanto, se adaptar ao desktop e mobile.
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-## Funcionamento do JS
+ - [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+ - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS/)
+ - [JS](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 
-Para que o projeto funcione como o desenhado, os selects devem trazer a lista de plantas de acordo com o que foi selecionado. Sendo estas as opções:
 
-- sunlight ["no", "low", "high"]
-- water ["regularly", "daily", "rarely"]
-- pets [true, false]
+## 🚀 Instalação
 
-No arquivo plants.json constam todas plantas e suas caracteristicas, a partir destas informações você pode criar a lista de plantas.
-Por exemplo:
-- Caso o usuário selecione a opção "low" no select "sunlight", deve ser apresentada a lista de plantas que contenham o valor de "sun" igual a "low".
-- Se na sequência o usuário selecionar a opção "true" no select "pets", deve ser apresentada a lista de plantas que contenham o valor de "toxicity" igual a "false", alem de limpar a seleção dos outros selects.
+```bash
+# Clone o repositório e entre na pasta do projeto
+$ git clone https://github.com/RayanneRamos/-upnext-frontend-test.git
+$ cd upnext-frontend-test
+```
 
-** A lista de plantas pode ser gerada dinâmicamente pelo js, ou ser montada em html, com o js sendo responsável apenas por exibir/ocultar o resultado correto.
+Abra no navegador o arquivo index.html
 
-## Como serei avaliado?
+## 🔖 Layout
 
-Para facilitar o entendimento e deixar mais claro como usar melhor o tempo, você será avaliado sob essas dimensões abaixo, mas não deixe de dar o seu melhor caso não tenha alguma coisa na lista que você acredite ser bom, os detalhes contam :D !
+Você pode visualizar o layout do projeto através:
 
-- Layout
-  - Fidelidade
-  - Responsividade
-- HTML
-  - Semantica
-  - Indentação e Organização de Código
-- CSS
-  - Legibilidade
-  - Organização
-  - Boas práticas
-  - Escalabilidade
-- JS
-  - Legibilidade
-  - Organização
-  - Boas práticas
+ - [LayoutWeb](https://www.figma.com/file/rA9ydy2sGCAjv6lKF1GzIm/UpNext-FrontEnd-Test?node-id=0%3A130) 
+ - [LayoutMobile](https://www.figma.com/file/rA9ydy2sGCAjv6lKF1GzIm/UpNext-FrontEnd-Test?node-id=0%3A297)
+ - [Styleguide](https://www.figma.com/file/rA9ydy2sGCAjv6lKF1GzIm/UpNext-FrontEnd-Test?node-id=0%3A526)
 
-## Pronto para começar o desafio?
+## 🔥 Desafios
+ - [x] Desktop
+ - [x] Mobile
 
-- Faça um "fork" desse repositório na sua conta do Github
-- Crie uma branch com o seu nome e sobrenome ex: patrick-santos
-- Após completar o desafio, faça o merge da branch criada para master
-- Finalizando esses itens, envie o link do seu repositório para o email leandro@upnext.com.br com cópia para administrativo@upnext.com.br
+## 📝 License
 
-** Valorizamos pessoas que queiram aprender, então caso tenha alguma dificuldade, ou não consiga realizar todo teste, pode entrar em contato comigo para te ajudar: leandro@upnext.com.br
+Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para obter mais detalhes.
+
+---
+
+<p aling="center">Criado by Rayanne Ramos</p>
