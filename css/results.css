@@ -23,23 +23,22 @@
   height: 66px;
   left: 271px;
   top: 934px;
-
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 55px;
-  line-height: 67px;
   margin-top: 52px;
   margin-left: 25px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.438rem;
+  line-height: 4.188rem;
 
   color: #0C261C;
 }
 
 .result-container {
-  display: flex;
-  flex-direction: row;
   width: 902px;
   height: 510px;
+  display: flex;
+  flex-direction: row;
 }
 
 .result-list {
@@ -75,11 +74,10 @@
   margin-top: 175px;
   margin-bottom: 5px;
 
-  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
-  font-size: 16px;
-  line-height: 28px;
+  font-size: 1rem;
+  line-height: 1.75rem;
   /* identical to box height, or 175% */
 
   color: var(--dark-green-color);
@@ -93,8 +91,8 @@
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
-  font-size: 16px;
-  line-height: 28px;
+  font-size: 1rem;
+  line-height: 1.75rem;
   /* identical to box height, or 175% */
 
   color: var(--dark-green-color);
@@ -124,8 +122,8 @@
     height: 98px;
     left: 10px;
     margin-top: 500px;
-    font-size: 40px;
-    line-height: 49px;
+    font-size: 2.5rem;
+    line-height: 3.063rem;
   }
 
   .result-container {
@@ -166,13 +164,11 @@
     margin-top: 240px;
     margin-bottom: 5px;
   
-    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
-    font-size: 16px;
-    line-height: 28px;
-    /* identical to box height, or 175% */
-  
+    font-size: 1rem;
+    line-height: 1.75rem;
+
     color: var(--dark-green-color);
   }
   
@@ -181,12 +177,10 @@
     margin-left: 19px;
     margin-top: 270px;
   
-    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
-    font-size: 16px;
-    line-height: 28px;
-    /* identical to box height, or 175% */
+    font-size: 1rem;
+    line-height: 1.75rem;
   
     color: var(--dark-green-color);
   
