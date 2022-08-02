@@ -1,0 +1,93 @@
+.no-filter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; 
+  width: 100%;
+}
+
+.filter-text {
+  flex-direction: column;
+}
+
+.filter-title {
+  position: absolute;
+  width: 442px;
+  height: 55px;
+  left: 290px;
+  top: 873px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 55px;
+  margin-top: 52px;
+  /* identical to box height */
+
+  color: var(--filter-title);
+}
+
+.filter-subtitle {
+  position: absolute;
+  width: 219px;
+  height: 81px;
+  left: 292px;
+  top: 940px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  margin-top: 52px;
+  /* or 169% */
+
+  color: var(--filter-title);
+
+}
+
+.filter-image {
+  position: absolute;
+  width: 106px;
+  height: 205px;
+  left: 842px;
+  top: 851px;
+  margin-top: 52px;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+@media screen and (max-width: 768px) {
+  .no-filter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+  }
+
+  .filter-title {
+    height: 108px;
+    width: 250px;
+    left: 35px;
+    top: 1300px;
+  }
+
+  .filter-subtitle {
+    position: absolute;
+    width: 219px;
+    height: 81px;
+    left: 37px;
+    margin-top: 550px;
+  }
+
+  .filter-image {
+    position: absolute;
+    width: 84.81px;
+    height: 164.65px;
+    left: 107px;
+    margin-top: 750px;
+  }
+}
