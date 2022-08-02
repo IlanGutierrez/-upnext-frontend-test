@@ -8,10 +8,114 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./index.scss" />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
   <body>
-    <img src="images/icons/logo-white.svg" alt="Greenthumb" />
+    <header>
+      <nav class="menu">
+        <img class="menu-image" src="./images/icons/logo-white.svg" />
+        <p class="text">Find your next green friend</p>
+        <img class="icon" src="./images/icons/arrow-down.svg" alt="arrow down" />
+      </nav>
+    </header>
+    <section class="selects">
+      <div class="select-content">
+        <div class="first-select">
+          <img src="./images/illustrations/sun.png" alt="sun" class="image-sun" />
+          <span class="select-text"><strong>1.</strong> Set the amount of <strong>sunlight</strong> your plant will get.</span>
+          <select class="select" name="select" id="select-sun">
+            <option value="">Select...</option>
+            <option class="no" value="no">no</option>
+            <option class="low" value="low">low</option>
+            <option class="high" value="high">high</option>
+          </select>
+        </div>
+        <div class="second-select">
+          <img src="./images/illustrations/wateringcan.png" alt="wateringcan" class="image-wateringcan" />
+          <span class="select-text"><strong>2.</strong> How often do you want to <strong>water</strong> your plant?</span>
+          <select class="select" name="select" id="select-wateringcan">
+            <option value="">Select...</option>
+            <option class="regurlaly" value="regularly">regularly</option>
+            <option class="daily" value="daily">daily</option>
+            <option class="rarely" value="rarely">rarely</option>
+          </select>
+        </div>
+        <div class="third-select">
+          <img src="./images/illustrations/dog.png" alt="dog" class="image-dog" />
+          <span class="select-text"><strong>3.</strong> Do you have pets? Do they <strong>chew</strong> plants?</span>
+          <select class="select" name="select" id="select-pets">
+            <option value="">Select...</option>
+            <option class="true" value="true">true</option>
+            <option class="false" value="false">false</option>
+          </select>
+        </div>
+      </div>
+    </section>
+    <section class="no-filter">
+      <div class="filter-text">
+        <h1 class="filter-title">No results yet…</h1>
+        <span class="filter-subtitle">Use the filters above to find the plant that best fits your environment :)</span>
+        <img class="filter-image" src="./images/illustrations/no-results.png" />
+      </div>
+    </section>
+    <section class="results hide">
+      <div class="result">
+        <div class="result-infos">
+          <img class="result-image" src="./images/illustrations/pick.png" />
+          <h1 class="result-text">Our picks for you</h1>
+        </div>
+        <div class="result-container" id="result-container">
+          <ul class="result-list" id="result-list">
+            <li class="list-item high-one rarely-one false-one hide">
+              <img src="./images/plantphotos/euphorbia-eritrea.png" class="list-image" alt="euphorbia-eritrea" />
+              <span class="list-name">Euphorbia eritrea</span>
+              <span class="list-price">$25</span>
+            </li>
+            <li class="list-item high-two rarely-two false-two hide">
+              <img src="./images/plantphotos/succulent-bowl.png" class="list-image" alt="succulent-bowl" />
+              <span class="list-name">Succulent Bowl</span>
+              <span class="list-price">$30</span>
+            </li>
+            <li class="list-item high-three rarely-three false-three hide">
+              <img src="./images/plantphotos/bunny-ears-cacti.png" class="list-image" alt="bunny-ears" />
+              <span class="list-name">Bunny ears cacti</span>
+              <span class="list-price">$20</span>
+            </li>
+            <li class="list-item high-four regularly-one false-four hide">
+              <img class="list-image" src="./images/plantphotos/ficus-lyrata.png" alt="ficus-lyrata" />
+              <span class="list-name">Ficus lyrata</span>
+              <span class="list-price">$30</span>
+            </li>
+            <li class="list-item low-one regularly-two false-five hide">
+              <img class="list-image" src="./images/plantphotos/lucky-bamboo.png" alt="lucky-bamboo" />
+              <span class="list-name">Bamboo</span>
+              <span class="list-price">$15</span>
+            </li>
+            <li class="list-item low-two regularly-three false-six hide">
+              <img class="list-image" src="./images/plantphotos/ponytail-palm.png" alt="ponytail-palm" />
+              <span class="list-name">Ponytail Palm</span>
+              <span class="list-price">$50</span>
+            </li>
+            <li class="list-item no-one regularly-four true-one hide">
+              <img class="list-image" src="./images/plantphotos/pilea-peperomioides.png" alt="pilea-peperomioides" />
+              <span class="list-name">Pilea peperomioides</span>
+              <span class="list-price">$50</span>
+            </li>
+            <li class="list-item no-two daily-one true-two hide">
+              <img class="list-image" src="./images/plantphotos/calathea-triostar.png" alt="calathea-triostar" />
+              <span class="list-name">Calathea triostar</span>
+              <span class="list-price">$50</span>
+            </li>
+            <li class="list-item no-three daily-two true-three hide">
+              <img class="list-image" src="./images/plantphotos/monstera-deliciosa.png" alt="monstera-deliciosa" />
+              <span class="list-name">Monstera deliciosa</span>
+              <span class="list-price">$50</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <script src="./js/script.js"></script>
   </body>
 </html>

@@ -1,0 +1,150 @@
+.selects {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.select-content {
+  position: absolute;
+  width: 100%;
+  height: 299px;
+  left: -5px;
+  top: 500px;
+  padding-top: 52px;
+  background: var(--white);
+}
+
+.first-select {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 221px;
+  height: 316px;
+  left: 288px;
+}
+
+.image-sun {
+  width: 75px;
+  height: 75px;
+  margin-bottom: 6px;
+}
+
+.select-text {
+  position: absolute;
+  height: 44px;
+  left: 2px;
+  top: 81px;
+  margin-bottom: 24px;
+
+  font-style: normal;
+  font-size: 0.875rem;
+  line-height: 1.375rem;
+
+  color: var(--select-text);
+}
+
+.select {
+  position: absolute;
+  width: 219px;
+  height: 40px;
+  top: 149px;
+  bottom: 127px;
+  border-radius: 19px;
+  color: var(--select-color);
+}
+
+.second-select {
+  position: absolute;
+  width: 219px;
+  height: 328px;
+  left: 606px;
+  display: flex;
+  flex-direction: column;
+  gap: 121px;
+}
+
+.image-wateringcan {
+  width: 103px;
+  height: 75px;
+  position: absolute;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  margin-bottom: 15px;
+}
+
+.select-water {
+  position: absolute;
+  width: 219px;
+  height: 40px;
+  top: 159px;
+}
+
+.third-select {
+  position: absolute;
+  width: 219px;
+  height: 270px;
+  left: 928px;
+  display: flex;
+  flex-direction: column;
+}
+
+.image-dog {
+  width: 75px;
+  height: 62px;
+  position: absolute;
+  left: 0%;
+  right: 65.75%;
+  top: 0%;
+  bottom: 77.04%;
+}
+
+.select-pets {
+  position: absolute;
+  width: 219px;
+  right: 0px;
+  top: 53.7%;
+  bottom: 31.48%;
+
+}
+
+@media screen and (max-width: 768px) {
+  .selects {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .select-content {
+    position: absolute;
+    height: 800px;
+    width: 100%;
+  }
+
+  .first-select {
+    position: absolute;
+    height: 318px;
+    width: 250px;
+    left: 20px;
+    border-radius: 0px;
+    margin-left: 38px;
+  }
+
+  .second-select {
+    position: absolute;
+    width: 245px;
+    height: 328px;
+    left: 20px;
+    margin-top: 240px;
+    margin-left: 38px;
+  }
+
+  .third-select {
+    position: absolute;
+    width: 248px;
+    height: 270px;
+    left: 20px;
+    margin-top: 480px;
+    margin-left: 38px;
+  }
+}
