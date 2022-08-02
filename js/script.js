@@ -19,14 +19,15 @@ selectWateringcan.addEventListener('change', (event) => {
   valueWateringcan = event.target.value;
   selectedValues();
   setTimeout(() => {
-    selectSun.value = '';
+    selectWateringcan.value = '';
   }, 3000);
 });
 
 selectPets.addEventListener('change', (event) => {
   valuePets = event.target.value;
+  selectedValues();
   setTimeout(() => {
-    selectSun.value = '';
+    selectPets.value = '';
   }, 3000);
 });
 
@@ -187,7 +188,7 @@ function selectedValues() {
     }, 8000);
   }
 
-  if(valuePets === false) {
+  if(valuePets === 'false') {
     const noFilter = document.querySelector('.no-filter');
     noFilter.classList.add('hide');
 
